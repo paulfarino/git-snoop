@@ -2,6 +2,7 @@
 A POC Git post-commit hook that outputs relevant text
 
 #### Why build this?
+<<<<<<< HEAD
 The name originates from the idea of celebrating and having fun with every commit. After each commit you could pass in a variable to output Snoop Dogg lyrics or your favorite artist.  
 ex: `git ci -m --snoop "Initial commit"`  
 
@@ -12,6 +13,18 @@ Working in various development environments there's value to create messages tha
 [ ] Pass argument to allow output of a specific text file or shell command (ex: git commit -m "Initial commit [snoop])  
 [ ] Investigate Git Config Flags (ex: git commit --snoop)  
 [ ] Create Ruby Gem to allow anyone to drop into projects  
+=======
+The name originates from the idea of celebrating and having fun with every commit. After each commit you could pass an variable to output Snoop Dogg lyrics or your favorite artist.  
+ex: `git ci -m --snoop "Initial commit"`  
+
+Working in various development environments there's value to create messages based that are relevant based on time of commit, day commit was made, and to which upstream environment.
+
+#### TODO
+[x] Create POC shell command to output text
+[ ] Pass argument to allow output of a specific text file or shell command (ex: git commit -m "Initial commit [snoop])
+[ ] Investigate Git Config Flags (ex: git commit --snoop)
+[ ] Create Ruby Gem to allow anyone to drop into projects
+>>>>>>> Initial Commit
 
 -------------
 Brought to you by [Paul Farino](https://github.com/paulfarino)
